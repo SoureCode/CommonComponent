@@ -32,8 +32,7 @@
         "psalm": "vendor/bin/psalm --show-info=false --no-cache --output-format=phpstorm",
         "cs-fix": "vendor/bin/php-cs-fixer fix",
         "cs-check": "vendor/bin/php-cs-fixer fix --diff",
-        "test": "vendor/bin/phpunit",
-        "infection": "vendor/bin/infection --only-covered"
+        "test": "vendor/bin/phpunit"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
