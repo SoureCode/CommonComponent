@@ -2,15 +2,6 @@
 
 namespace SoureCode\Component\Common\Model;
 
-use DateTimeInterface;
-
-interface TimestampableInterface
+interface TimestampableInterface extends CreatedAtInterface, UpdatedAtInterface
 {
-    public function getCreatedAt(): ?DateTimeInterface;
-
-    public function setCreatedAt(?DateTimeInterface $createdAt): void;
-
-    public function getUpdatedAt(): ?DateTimeInterface;
-
-    public function setUpdatedAt(?DateTimeInterface $updatedAt): void;
 }

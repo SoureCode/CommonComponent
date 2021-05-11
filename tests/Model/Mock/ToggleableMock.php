@@ -2,8 +2,8 @@
 
 namespace SoureCode\Component\Common\Tests\Model\Mock;
 
+use SoureCode\Component\Common\Domain\ToggleableTrait;
 use SoureCode\Component\Common\Model\ToggleableInterface;
-use SoureCode\Component\Common\Model\ToggleableTrait;
 
 class ToggleableMock implements ToggleableInterface
 {

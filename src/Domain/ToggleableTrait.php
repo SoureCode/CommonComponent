@@ -1,6 +1,6 @@
 <?php
 
-namespace SoureCode\Component\Common\Model;
+namespace SoureCode\Component\Common\Domain;
 
 trait ToggleableTrait
 {
